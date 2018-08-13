@@ -1,9 +1,9 @@
 package com.example.nakulbhoria.TourGuideApp;
 
-import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
+import android.support.design.widget.TabLayout;
+import android.support.v4.view.ViewPager;
+import android.support.v7.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -11,25 +11,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-    }
 
-    public void hotelClick(View view) {
-        Intent i = new Intent(this, Hotels.class);
-        startActivity(i);
-    }
 
-    public void malls(View view) {
-        Intent i = new Intent(this, Malls.class);
-        startActivity(i);
-    }
+        ViewPager viewPager = findViewById(R.id.pager);
+        MyPagerAdapter myPagerAdapter = new MyPagerAdapter(this,getSupportFragmentManager());
+        viewPager.setAdapter(myPagerAdapter);
 
-    public void night(View view) {
-        Intent i = new Intent(this, NightPlaces.class);
-        startActivity(i);
-    }
-
-    public void places(View view) {
-        Intent i = new Intent(this, Places.class);
-        startActivity(i);
+        TabLayout tabLayout = findViewById(R.id.tab_layout);
+        tabLayout.setupWithViewPager(viewPager);
     }
 }
