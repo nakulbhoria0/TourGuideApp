@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Tour Guide App</string>
+    <!-- Places information -->
+    <string name="red_fort">Red Fort</string>
+    <string name="red_fort_address">Netaji Subhash Marg, Lal Qila, Chandni Chowk, New Delhi, Delhi 110006</string>
+    <string name="india_gate">India Gate</string>
+    <string name="india_gate_address">Rajpath, India Gate, New Delhi, Delhi 110001</string>
+    <string name="jama_masjid">Jama Masjid</string>
+    <string name="jama_masjid_address">Meena Bazaar, Jama Masjid, Chandni Chowk, New Delhi, Delhi 110006</string>
+    <string name="qutub_minar">Qutub Minar</string>
+    <string name="qutub_minar_address">Mehrauli, New Delhi, Delhi 110030</string>
+    <string name="humanyun_tomb">Humayun\'s Tomb</string>
+    <string name="humanyun_tomb_address">Mathura Road, Opposite Dargah Nizamuddin, New Delhi, Delhi 110013</string>
+    <!-- Hotels information-->
+    <string name="itc_maurya">ITC Maurya</string>
+    <string name="itc_maurya_adress">ITC Maurya, Diplomatic Enclave, Sadar Patel Marg, New Delhi, 110 021</string>
+    <string name="taj_palace">Taj Palace Hotel</string>
+    <string name="taj_palace_address">Taj Palace Hotel, Diplomatic Enclave, New Delhi, 110021</string>
+    <string name="the_imperial">The Imperial</string>
+    <string name="the_imperial_adress">The Imperial New Delhi, Janpath, New Delhi, 110 001</string>
+    <string name="the_leela_palace">The Leela Palace</string>
+    <string name="the_leela_palace_address">The Leela Palace New Delhi, Chanakyapuri, Diplomatic Enclave, New Delhi, 110 023</string>
+    <string name="the_oberoi">The Oberoi</string>
+    <string name="the_oberoi_adress">The Oberoi New Delhi, Dr Zakir Hussain Marg, New Delhi, 110 003</string>
+    <!-- Malls information-->
+    <string name="star_city">Star City Mall</string>
+    <string name="star_city_mall_address">Mayur Place, Mayur Vihar Phase I, New Delhi</string>
+    <string name="select_citywalk_mall">Select CITYWALK</string>
+    <string name="select_citywalk_mall_address">A-3, District Center Saket, New Delhi</string>
+    <string name="Ambience_mall">Ambience Mall</string>
+    <string name="Ambience_mall_adress">No. 2, Nelson Mandela Marg, Vasant Kunj, New Delhi</string>
+    <string name="dlf_promenade">DLF Promenade</string>
+    <string name="dlf_promenade_adress">3, Nelson Mandela Marg, Vasant Kunj malls, New Delhi</string>
+    <string name="dlf_place_saket_mall">DLF Place Saket</string>
+    <string name="dlf_place_saket_mall_address">No.A 4, District Center, Press Enclave Road, Saket, New Delhi</string>
+    <string name="club_pangaea">Club Pangaea</string>
+    <string name="club_pangaea_address">The Ashok, Lobby Level, 50B, Diplomatic Enclave, Chanakyapuri, South Delhi, 110021</string>
+    <string name="comesum">Comesum</string>
+    <string name="comesum_address">Rajiv Chowk | Metro Station, Connaught Place, New Delhi 110013, India</string>
+    <string name="mocha_art_house">Mocha Art House</string>
+    <string name="mocha_art_house_address">167, Ground Floor, DLF Promenade Mall, Vasant Kunj, New Delhi</string>
+    <string name="blue_bar">Blue Bar</string>
+    <string name="blue_bar_address">Taj Diplomatic Enclave, 2, Sardar Patel Marg, Diplomatic Enclave, New Delhi, Delhi 110021</string>
+    <!-- Night Places information-->
+</resources>
