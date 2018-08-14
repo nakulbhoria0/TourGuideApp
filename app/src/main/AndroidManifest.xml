@@ -16,14 +16,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Hotels"
-            android:label="Hotels"/>
-        <activity android:name=".Places"
-            android:label="Places"/>
-        <activity android:name=".Malls"
-            android:label="Malls"/>
-        <activity android:name=".NightPlaces"
-            android:label="Night Places"/>
     </application>
 
 </manifest>
